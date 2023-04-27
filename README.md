@@ -35,4 +35,6 @@ https://user-images.githubusercontent.com/76523934/234911022-9911f96f-b51f-4c49-
     -显示比赛队伍名字，比赛名称
 2. ban pick 特效
 3. 未完成的英雄海报和语音
+
+自己做了什么的可以联系我开权限 push
     
