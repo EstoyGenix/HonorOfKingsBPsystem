@@ -1,0 +1,137 @@
+
+
+<!--
+
+   current_step    控制目标
+     1            ban1  蓝
+     2            ban2 ban3 红
+     3           ban3 ban4 蓝
+     4           ban5 ban6 红
+     5            pick1 蓝
+     6            pick2 pick3 红
+     7            pick4 pick5 蓝
+     8            pick6 pick7 红
+     9            pick8 pick9 蓝
+     10           pick10 红
+
+-->
+
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src = "./asset/script.js">
+
+    </script>
+    <link rel="stylesheet" href="./asset/style.css">
+    <script type="text/javascript" src = "./asset/test.js">
+
+    </script>
+    <link rel="stylesheet" href="./asset/test.css">
+  </head>
+
+<body style="background:black">
+
+</body>
+
+<div class="bod">
+
+  <div class="control_center">
+    <div class="control_title">
+      控制中心
+    </div>
+    <input class="input_box" type="text" name="" value="">
+    <button onclick="proceed()" class="proceed" type="button" name="button">start</button>
+
+
+    <div class="suggestions_box">
+      提示
+      <div class="suggestions">
+        您可能在找
+      </div>
+    </div>
+
+    <div class="mode_selector">
+      <button class="change_mode" type="button" name="button">ban</button>
+      <button class="change_mode" type="button" name="button">开始pick</button>
+    </div>
+
+  </div>
+
+
+
+  <div class="main_container">
+
+    <div class="blue">
+
+      <div class="blue_ban">
+
+        <div class="ban">
+          <img id="ban1" class="ban_img" src="./asset/default_ban.png" alt="">
+        </div>
+        <div class="ban">
+          <img id="ban4" class="ban_img" src="./asset/default_ban.png" alt="">
+        </div>
+        <div class="ban">
+          <img id="ban5" class="ban_img" src="./asset/default_ban.png" alt="">
+        </div>
+
+      </div>
+
+      <div class="operator">
+        <img id="pick1" class="pick_img" src="./asset/default_ban.png" alt="">
+      </div>
+      <div class="operator">
+        <img id="pick4" class="pick_img" src="./asset/default_ban.png" alt="">
+      </div>
+      <div class="operator">
+        <img id="pick5" class="pick_img" src="./asset/default_ban.png" alt="">
+      </div>
+      <div class="operator">
+        <img id="pick8" class="pick_img" src="./asset/default_ban.png" alt="">
+      </div>
+      <div class="operator">
+        <img id="pick9" class="pick_img" src="./asset/default_ban.png" alt="">
+      </div>
+
+    </div>
+
+    <div class="red">
+
+      <div class="red_ban">
+
+        <div class="ban">
+          <img id="ban2" class="ban_img" src="./asset/default_ban.png" alt="">
+        </div>
+        <div class="ban">
+          <img id="ban3" class="ban_img" src="./asset/default_ban.png" alt="">
+        </div>
+        <div class="ban">
+          <img id="ban6" class="ban_img" src="./asset/default_ban.png" alt="">
+        </div>
+        <audio id="myAudio" loop>
+          <source src="./asset/bgm.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+
+      <div class="operator">
+        <img id="pick2" class="pick_img" src="./asset/default_ban.png" alt="">
+      </div>
+      <div class="operator">
+        <img id="pick3" class="pick_img" src="./asset/default_ban.png" alt="">
+      </div>
+      <div class="operator">
+        <img id="pick6" class="pick_img" src="./asset/default_ban.png" alt="">
+      </div>
+      <div class="operator">
+        <img id="pick7" class="pick_img" src="./asset/default_ban.png" alt="">
+      </div>
+      <div class="operator">
+        <img id="pick10" class="pick_img" src="./asset/default_ban.png" alt="">
+      </div>
+
+
+
+    </div>
+
+  </div>
+</div>

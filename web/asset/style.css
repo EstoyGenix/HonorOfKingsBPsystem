@@ -1,0 +1,188 @@
+
+.main_container{
+position : absolute;
+width : 80em;
+height : 35em;
+background : grey ;
+left : 5em;
+top : 17em;
+}
+.blue{
+position : absolute;
+width : 15em;
+height : 35em;
+background : blue;
+}
+.red{
+position : absolute;
+width : 15em;
+height : 35em;
+right : 0em;
+background : red;
+}
+.blue_ban{
+position : relative;
+width : 15em;
+height : 5em;
+background : blue;
+}
+.red_ban{
+position : relative;
+width : 15em;
+height : 5em;
+background : red;
+}
+.operator{
+position : relative;
+width : 15em;
+height : 6em;
+overflow : hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.ban{
+position : relative;
+width : 3em;
+height : 3em;
+top : 1em;
+background : yellow;
+margin-left : 1.2em;
+display: inline-block;
+border-radius : 20px;
+overflow : hidden;
+filter: grayscale(100%) brightness(100%);
+}
+.control_center{
+position : absolute;
+width : 60em;
+height : 10em;
+left : 15em;
+background : #BBBBBB;
+border-style: groove;
+border-radius : 20px;
+display : flex;
+justify-content : center;
+}
+.control_title{
+font-size : 1.5em;
+}
+.input_box{
+position : absolute;
+height : 3em;
+top : 2.3em;
+background : #EEEEEE;
+text-align : center;
+border-radius : 10px;
+font-size : 1em;
+}
+.proceed{
+position : absolute;
+height : 2em;
+width : 4em;
+top : 4em;
+background : red;
+text-align : center;
+border-radius : 10px;
+font-size : 1.5em;
+}
+.mode_selector{
+position : absolute;
+height : 10em;
+width : 17em;
+left : 2em;
+background : blue;
+display : none;
+justify-content : center;
+}
+.change_mode{
+position : relative;
+height : 2em;
+width : 4em;
+margin-top : 1em;
+margin-right : 1em;
+margin-left: 1em;
+background : red;
+text-align : center;
+border-radius : 10px;
+font-size : 1.5em;
+}
+.suggestions_box{
+position : absolute;
+height : 8em;
+width : 17em;
+right : 2em;
+top: 1em;
+border-radius : 10px;
+background : #EEEEEE;
+justify-content : center;
+display : flex;
+}
+.suggestions{
+position : absolute;
+height : 6em;
+width : 15em;
+right : 1em;
+top: 1.5em;
+border-radius : 10px;
+overflow : auto;
+justify-content : center;
+display : flex;
+}
+.ban_img{
+position : absolute;
+height : 100%;
+width : auto;
+}
+.pick_img{
+position : absolute;
+width : 100%;
+height : auto;
+vertical-align: middle;
+}
+.bod{
+  position: absolute;
+  background: black;
+}
+.breathing{
+  animation-name: breathing;
+  animation-duration: 1.3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes breathing{
+  from {
+    filter: brightness(160%);
+  }
+  to {
+    filter: brightness(100%);
+  }
+}
+.breathing_blue{
+  animation-name: breathing;
+  animation-duration: 1.3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes breathing_blue{
+  from {
+    filter: brightness(100%);
+  }
+  to {
+    filter: brightness(50%);
+  }
+}
+.breathing_red{
+  animation-name: breathing;
+  animation-duration: 1.3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes breathing_red{
+  from {
+    filter: brightness(160%);
+  }
+  to {
+    filter: brightness(100%);
+  }
+}
