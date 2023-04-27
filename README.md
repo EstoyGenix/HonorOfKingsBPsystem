@@ -1,6 +1,10 @@
 
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://github.com/20040714Mike/HonorOfKingsBPsystem/raw/main/demo.mp4)
+
+https://user-images.githubusercontent.com/76523934/234911022-9911f96f-b51f-4c49-ae08-055757e2bfa8.mp4
+
+
+
 
 
 当前版本只是个两小时的产物，大概再换一下背景和一些图片，中间再加点符合情景的内容就差不多了。
